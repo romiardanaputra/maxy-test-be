@@ -1,0 +1,66 @@
+{
+  "rules": {
+    // Possible Errors
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-dupe-args": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "no-ex-assign": "error",
+    "no-extra-boolean-cast": "error",
+    "no-func-assign": "error",
+    "no-invalid-regexp": "error",
+    "no-irregular-whitespace": "error",
+    "no-unsafe-negation": "error",
+    "valid-typeof": ["error", { "requireStringLiterals": true }],
+    "semi": "off",
+    "linebreak-style": 0,
+
+    // Best Practices
+    "curly": "error",
+    "eqeqeq": ["error", "always"],
+    "no-eval": "error",
+    "no-implied-eval": "error",
+    "no-return-assign": ["error", "except-parens"],
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-with": "error",
+    "prefer-promise-reject-errors": "error",
+
+    // Variables
+    "no-delete-var": "error",
+    "no-shadow": "warn",
+    "no-undef": "error",
+    "no-unused-vars": ["error", { "args": "none", "caughtErrors": "none" }],
+    "no-use-before-define": [
+      "error",
+      { "functions": false, "classes": false, "variables": false }
+    ],
+
+    // Stylistic Issues
+    "array-bracket-spacing": ["error", "never"],
+    "block-spacing": ["error", "always"],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "camelcase": ["error", { "properties": "never" }],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": ["error", "last"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single"],
+    "space-before-blocks": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": "error",
+    "spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+
+    // ECMAScript 6
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "no-duplicate-imports": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-template": "error"
+  }
+}

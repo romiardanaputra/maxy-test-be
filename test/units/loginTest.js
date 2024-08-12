@@ -1,7 +1,7 @@
 import request from "supertest";
 import mongoose from "mongoose";
 import app from "../../server.js";
-import User from "../../models/userModel.js";
+import User from "../../models/UserModel.js";
 
 describe("POST /api/auth/login", () => {
   beforeAll(async () => {

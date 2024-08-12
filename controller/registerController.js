@@ -1,4 +1,4 @@
-import UserModel from "../models/userModel.js";
+import UserModel from "../models/UserModel.js";
 
 // @desc register a new user
 // @route POST /api/register
